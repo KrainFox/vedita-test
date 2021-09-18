@@ -6,9 +6,6 @@ use mysqli;
 
 class Conection_DB
 {
-
-
-
     public function  conect(){
 
         define('DB_HOST','localhost');
@@ -21,7 +18,4 @@ class Conection_DB
         return $mysql;
     }
 
-    public function close(){
-
-    }
 }

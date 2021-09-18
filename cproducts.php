@@ -6,9 +6,6 @@ use Conection_DB\Conection_DB;
 
 require 'conection_db.php';
 
-
-
-
 class CProducts
 {
 
@@ -49,4 +46,5 @@ class CProducts
         $mysql->close();
         return $query;
     }
+
 }

@@ -1,5 +1,4 @@
 $(function() {
-
     $(document).ready(function() {
         $('button').click(function() {
             switch ($(this).attr('id')){
