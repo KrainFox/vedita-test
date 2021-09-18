@@ -20,9 +20,6 @@ if(!empty($_POST) ){
             break;
     }
 }
-//$prod->productHidden();
-//$prod->productQuantityMinus();
-//$prod->productQuantityPlus();
 ?>
 
 <!doctype html>

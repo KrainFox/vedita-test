@@ -4,14 +4,12 @@ $(function() {
         $('button').click(function() {
             switch ($(this).attr('id')){
                 case 'pls':
-                    //alert('pls '+$(this).val());
                     qantityPlus($(this).val());
                     break;
                 case 'min':
                     qantityMinus($(this).val());
                     break;
                 case 'btHide':
-                    // alert('hide '+$(this).val());
                     hideProduct($(this).val())
                     break;
             }
