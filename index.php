@@ -7,6 +7,8 @@ $prod = new CProducts();
 $data = $prod->getProducts(10);
 $i=1;
 
+//Код ниже это замена нормального маршрутизатора для обращения к функциям класса CProducts
+//При необходимости могу доработать и сделать отдельный класс Route и с помощью Ajax отправлять данные на прямую
 if(!empty($_POST) ){
     switch ($_POST['funcName']){
         case "min":
@@ -48,7 +50,7 @@ if(!empty($_POST) ){
                         <th>Дата создания</th>
                         <th></th>
                     </tr>
-                    <?php
+                    <?php //Цикличный вывод данных строк таблицы
                     while($row = $data->fetch_assoc()){
                         echo
                     '<tr id="row'.$row['id'].'">' .

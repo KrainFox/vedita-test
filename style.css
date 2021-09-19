@@ -6,7 +6,7 @@
 .content{
     vertical-align: middle;
 }
-
+/*Функция скрытия элемента с экрана пользователя*/
 .hide{
     display: none;
 }
